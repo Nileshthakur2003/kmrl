@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '../../../lib/dbConnect';
+import dbConnect from '../../dbconnect';
 import Alert from '../../../models/Alert'; // Assuming you have an Alert model
 
 /**

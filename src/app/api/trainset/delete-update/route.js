@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import dbConnect from '../../../../api/dbconnect';
-import Trainset from  '../../../../models/trainset';
+import dbConnect from '../../dbconnect';
+import Trainset from  '../../../models/trainset';
 
 /**
  * Handles GET requests to fetch a single trainset by its ID.

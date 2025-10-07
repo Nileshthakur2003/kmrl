@@ -1,0 +1,40 @@
+{
+  "userTypes": [
+    {
+      "role": "OperationsSupervisor",
+      "description": "Final decision-maker for train induction. Access to all modules, override capabilities, and simulation tools."
+    },
+    {
+      "role": "MaintenanceEngineer",
+      "description": "Inputs and updates fitness certificates, job-card status, and inspection schedules from Maximo and IBL."
+    },
+    {
+      "role": "BrandingCoordinator",
+      "description": "Manages wrap exposure targets, SLA constraints, and monitors branding compliance risks."
+    },
+    {
+      "role": "DepotController",
+      "description": "Handles stabling geometry, bay occupancy, shunting plans, and cleaning slot availability."
+    },
+    {
+      "role": "DataIntegratorAdmin",
+      "description": "Maintains data pipelines, configures ingestion sources (Maximo, IoT, UNS), and ensures system health."
+    },
+    {
+      "role": "AnalyticsPlanner",
+      "description": "Analyzes historical data, runs ML forecasts, and proposes optimization strategies."
+    },
+    {
+      "role": "ExecutiveViewer",
+      "description": "Views high-level dashboards for KPIs, SLA adherence, and fleet readiness summaries."
+    },
+    {
+      "role": "MobileFieldStaff",
+      "description": "Updates cleaning status, job-card closures, and bay occupancy via mobile interface (limited access)."
+    },
+    {
+      "role": "AuditComplianceOfficer",
+      "description": "Read-only access to logs, overrides, and decision trails for regulatory and compliance review."
+    }
+  ]
+}

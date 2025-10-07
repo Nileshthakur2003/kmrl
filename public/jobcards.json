@@ -1,0 +1,244 @@
+{
+  "JobCards": {
+    "PreventiveMaintenance": {
+      "description": "Scheduled routine maintenance tasks based on time or mileage.",
+      "tasks": {
+        "BogieInspection": {
+          "description": "Check bogies for wear, lubrication, and structural integrity.",
+          "subtasks": [
+            "VisualInspection",
+            "LubricateBearings",
+            "CheckWheelProfile",
+            "MeasureAxleClearance",
+            "CheckSuspensionComponents",
+            "RecordMeasurements"
+          ]
+        },
+        "BrakeSystemCheck": {
+          "description": "Inspect and maintain brake pads, discs, and actuators.",
+          "subtasks": [
+            "InspectBrakePads",
+            "MeasurePadThickness",
+            "CheckBrakeDiscWear",
+            "TestBrakeActuators",
+            "ReplaceWornComponents"
+          ]
+        },
+        "HVACMaintenance": {
+          "description": "Routine servicing of Heating, Ventilation, and Air Conditioning.",
+          "subtasks": [
+            "CleanFilters",
+            "CheckCoolingCoils",
+            "TestCompressorFunction",
+            "InspectElectricalConnections",
+            "CheckAirFlowRates"
+          ]
+        },
+        "DoorMechanismCheck": {
+          "description": "Ensure doors operate smoothly and safely.",
+          "subtasks": [
+            "TestDoorOpenCloseCycles",
+            "InspectSensors",
+            "LubricateMovingParts",
+            "CheckEmergencyRelease",
+            "ReplaceFaultyComponents"
+          ]
+        },
+        "ElectricalSystemsCheck": {
+          "description": "Routine check of electrical circuits and batteries.",
+          "subtasks": [
+            "InspectWiringHarness",
+            "TestBatteryVoltage",
+            "CheckLightingSystems",
+            "TestControlPanels",
+            "ReplaceDamagedFuses"
+          ]
+        }
+      }
+    },
+    "CorrectiveMaintenance": {
+      "description": "Unplanned repairs triggered by faults or defects.",
+      "tasks": {
+        "SignallingFaultRepair": {
+          "description": "Address defects in signaling equipment.",
+          "subtasks": [
+            "DiagnoseSignalError",
+            "ReplaceFaultyModules",
+            "TestSignalCommunication",
+            "UpdateFirmwareIfNeeded"
+          ]
+        },
+        "HVACRepair": {
+          "description": "Repair or replace malfunctioning HVAC components.",
+          "subtasks": [
+            "IdentifyFaultyComponent",
+            "ReplaceCompressorOrFan",
+            "RechargeRefrigerant",
+            "TestSystemAfterRepair"
+          ]
+        },
+        "DoorFailureFix": {
+          "description": "Repair door jams, sensor faults, or mechanical issues.",
+          "subtasks": [
+            "ResetDoorControlUnit",
+            "ReplaceDoorSensors",
+            "RealignDoorPanels",
+            "TestDoorOperation"
+          ]
+        },
+        "ElectricalFaultRepair": {
+          "description": "Fix wiring or electrical component failures.",
+          "subtasks": [
+            "TraceElectricalFault",
+            "ReplaceDamagedCables",
+            "TestCircuitContinuity",
+            "VerifySystemOperation"
+          ]
+        }
+      }
+    },
+    "Inspection": {
+      "description": "Safety, compliance and fitness checks.",
+      "tasks": {
+        "FitnessCertificateVerification": {
+          "description": "Validate fitness certificates from Rolling-Stock, Signalling, Telecom.",
+          "subtasks": [
+            "VerifyRollingStockCertificate",
+            "VerifySignallingCertificate",
+            "VerifyTelecomCertificate",
+            "LogCertificateExpiryDates"
+          ]
+        },
+        "SafetyAudit": {
+          "description": "Comprehensive safety inspection of trainset.",
+          "subtasks": [
+            "CheckFireExtinguishers",
+            "InspectEmergencyExits",
+            "TestPassengerAlarms",
+            "VerifyFirstAidKit",
+            "ReviewSafetySignage"
+          ]
+        },
+        "TrackCompatibilityCheck": {
+          "description": "Confirm trainset is compatible with assigned track and depot.",
+          "subtasks": [
+            "ReviewStablingGeometry",
+            "ConfirmTrainLength",
+            "VerifyPlatformAlignment"
+          ]
+        }
+      }
+    },
+    "CleaningAndDetailing": {
+      "description": "Interior and exterior cleaning and aesthetic maintenance.",
+      "tasks": {
+        "InteriorDeepCleaning": {
+          "description": "Thorough cleaning of all passenger compartments.",
+          "subtasks": [
+            "VacuumSeatsAndFloors",
+            "CleanWindowsInside",
+            "DisinfectHandrailsAndPoles",
+            "EmptyTrashBins",
+            "RefillSanitizerDispensers"
+          ]
+        },
+        "ExteriorWashing": {
+          "description": "Cleaning the outside body of trainsets.",
+          "subtasks": [
+            "HighPressureWash",
+            "RemoveDirtAndGraffiti",
+            "DryTrainExterior",
+            "InspectForSurfaceDamage"
+          ]
+        },
+        "BrandingInspection": {
+          "description": "Inspect and maintain advertising wraps.",
+          "subtasks": [
+            "CheckWrapIntegrity",
+            "RepairPeelingEdges",
+            "ScheduleWrapReplacement",
+            "CoordinateWithAdvertisingTeam"
+          ]
+        }
+      }
+    },
+    "OverhaulAndMajorRepairs": {
+      "description": "Extended repairs requiring significant downtime.",
+      "tasks": {
+        "BogieOverhaul": {
+          "description": "Complete servicing or replacement of bogie components.",
+          "subtasks": [
+            "LiftTrainUsingPitjack",
+            "RemoveBogieFromTrainset",
+            "InspectAllBogiesParts",
+            "ReplaceWornParts",
+            "ReassembleAndTest"
+          ]
+        },
+        "HVACMajorServicing": {
+          "description": "Complete teardown and servicing of HVAC units.",
+          "subtasks": [
+            "DisassembleHVACUnit",
+            "ReplaceMajorComponents",
+            "TestSystemThoroughly",
+            "ReinstallHVACUnit"
+          ]
+        },
+        "StructuralRepair": {
+          "description": "Fix structural damage to car body or chassis.",
+          "subtasks": [
+            "AssessDamage",
+            "WeldOrReplaceDamagedPanels",
+            "TestStructuralIntegrity",
+            "PaintAndProtectSurface"
+          ]
+        }
+      }
+    },
+    "Emergency": {
+      "description": "Immediate urgent maintenance required due to operational disruptions.",
+      "tasks": {
+        "UnscheduledWithdrawal": {
+          "description": "Remove trainset from service due to sudden fault.",
+          "subtasks": [
+            "IdentifyIssue",
+            "NotifyOperationsControl",
+            "MoveTrainToInspectionBay",
+            "BeginImmediateRepair"
+          ]
+        },
+        "CriticalComponentReplacement": {
+          "description": "Replace critical failed component to restore functionality.",
+          "subtasks": [
+            "SourceSparePart",
+            "ReplaceComponent",
+            "TestFunctionality",
+            "ReturnToService"
+          ]
+        }
+      }
+    },
+    "TestingAndCommissioning": {
+      "description": "Validation and testing post-maintenance to ensure readiness.",
+      "tasks": {
+        "FunctionalityTest": {
+          "description": "Check all repaired/maintained systems.",
+          "subtasks": [
+            "RunDiagnosticSoftware",
+            "PerformOperationalTestRuns",
+            "VerifySystemResponses",
+            "DocumentTestResults"
+          ]
+        },
+        "SafetyCertification": {
+          "description": "Certify safety compliance before release.",
+          "subtasks": [
+            "ConductSafetyChecks",
+            "ApproveFitnessCertificates",
+            "IssueReleaseAuthorization"
+          ]
+        }
+      }
+    }
+  }
+}

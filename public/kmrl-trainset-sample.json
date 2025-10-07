@@ -1,0 +1,65 @@
+{
+  "trainsetId": "KMRL-014",
+  "date": "2025-09-19",
+  "fitness": {
+    "rollingStock": {
+      "status": "valid",
+      "expiresOn": "2025-10-05"
+    },
+    "signalling": {
+      "status": "valid",
+      "expiresOn": "2025-09-25"
+    },
+    "telecom": {
+      "status": "expired",
+      "expiresOn": "2025-09-18"
+    }
+  },
+  "jobCards": {
+    "openWorkOrders": [
+      {
+        "id": "MAX-20250918-0032",
+        "component": "HVAC",
+        "priority": "critical",
+        "status": "open"
+      },
+      {
+        "id": "MAX-20250917-0011",
+        "component": "Brake Pad",
+        "priority": "minor",
+        "status": "open"
+      }
+    ],
+    "closedWorkOrders": [
+      {
+        "id": "MAX-20250915-0045",
+        "component": "Pantograph",
+        "status": "closed"
+      }
+    ]
+  },
+  "branding": {
+    "wrapId": "BRD-ALSTOM-2025",
+    "exposureHoursThisMonth": 42,
+    "targetHours": 60,
+    "priority": "high"
+  },
+  "mileage": {
+    "totalKm": 128450,
+    "kmSinceLastService": 4200,
+    "bogieWearLevel": "moderate",
+    "brakePadWearLevel": "high",
+    "hvacCycleCount": 980
+  },
+  "cleaning": {
+    "interiorStatus": "pending",
+    "lastCleaned": "2025-09-17",
+    "baySlotAvailable": true,
+    "assignedTeam": "Team-C"
+  },
+  "stabling": {
+    "currentBay": "Bay-7",
+    "shuntingEffortScore": 8.5,
+    "preferredForMorningTurnout": false
+  }
+}

@@ -1,5 +1,6 @@
 'use client';
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { DollarSign, BarChart2, AlertTriangle, Mail, Check, X, Train, Clock, Loader2, ServerCrash } from 'lucide-react';
 
@@ -37,7 +38,18 @@ const CampaignCard = ({ campaign }) => {
                 <div>
                     <p className="text-lg font-bold text-white flex items-center gap-2"><Train size={20}/> {campaign.trainsetId}</p>
                     <div className="flex items-center gap-2 mt-1">
-                        <img src={`https://logo.clearbit.com/${campaign.companyName.toLowerCase().replace(/\s+/g, '')}.com`} alt={campaign.companyName} className="w-5 h-5 bg-white rounded-full p-0.5 object-contain" onError={(e) => e.target.src='https://via.placeholder.com/16'} />
+                        <Image
+  src={`https://logo.clearbit.com/${campaign.companyName
+    .toLowerCase()
+    .replace(/\s+/g, "")}.com`}
+  alt={campaign.companyName}
+  width={20}
+  height={20}
+  className="w-5 h-5 bg-white rounded-full p-0.5 object-contain"
+  onError={(e) => {
+    e.currentTarget.src = "https://via.placeholder.com/16";
+  }}
+/>
                         <span className="text-sm font-semibold">{campaign.companyName}</span>
                     </div>
                 </div>

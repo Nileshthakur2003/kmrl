@@ -90,7 +90,7 @@ const PreSimulationLanding = () => {
   return (
     <div className="bg-slate-800/50 border border-slate-700 rounded-lg p-8 md:p-12 animate-fade-in text-center">
       <Zap className="w-12 h-12 text-blue-400 mx-auto mb-4"/>
-      <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Plan Tomorrow's Fleet?</h2>
+      <h2 className="text-3xl font-extrabold text-white mb-4">Ready to Plan Tomorrow\'s Fleet?</h2>
       <p className="text-xl text-slate-300 max-w-3xl mx-auto mb-10">
         The Nightly Induction Planner uses a multi-objective optimization engine to generate the most efficient and compliant train service schedule for the next operating day.
       </p>
@@ -104,7 +104,7 @@ const PreSimulationLanding = () => {
           </div>
         ))}
       </div>
-      <p className="text-sm text-slate-500 mt-8">Click 'Begin Simulation' to start the 5-step process.</p>
+      <p className="text-sm text-slate-500 mt-8">Click 'Begin Simulation\' to start the 5-step process.</p>
     </div>
   );
 };

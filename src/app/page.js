@@ -78,7 +78,7 @@ const SchedulingPlanner = ({ currentTime }) => {
         </p>
       ) : isAfterWindow ? (
         <p className="text-green-400 text-lg mb-4 font-semibold">
-          Planning Complete — Induction list generated for today's operation.
+          Planning Complete — Induction list generated for today\'s operation.
         </p>
       ) : (
         <p className="text-blue-400 text-lg mb-4 font-semibold">
